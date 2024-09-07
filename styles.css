@@ -423,9 +423,30 @@ font-size: 20px;
  height: 60px;
 }
 
+.menu1 {
+ width: auto;
+ height: auto;
+ padding: 5% 0%;
+}
+
+.tmenu1 {
+ border-radius: 100px;
+ border:ridge 2px gold;
+ margin: 0.5% 0.3%;
+ padding: 3% 2%;
+ width: auto;
+ height: 60px;
+}
+
 .gmenu {
 width: 80px;
 height: auto;
+}
+
+.gmenu1 {
+width: 14.5%;
+height: auto;
+padding: 1% 0%;
 }
 
 .gkon {
