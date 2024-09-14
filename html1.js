@@ -5,7 +5,7 @@ const menu1 = `
 
 <!-- Top Navigation Menu -->
 <div class="topnav">
-  <a href="#" class="active tmenu"><img class="gmenu" src="./game/icon/home.png"></a>
+  <a href="./index.html" class="active tmenu"><img class="gmenu" src="./game/icon/home.png"></a>
   <div id="myLinks">
     <a href="./game/pragmatic.html" class="stay tmenu"><img class="gmenu" src="./game/icon/pragmatic.png"></a>
     <a href="./game/pgsoft.html" class="stay tmenu"><img class="gmenu" src="./game/icon/pgsoft.png"></a>
