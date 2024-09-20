@@ -214,6 +214,7 @@ display: block;
 width: 100%;
 text-align: left; /* Jika Anda ingin teks rata kiri pada layar kecil */
 }
+.card-content{margin:0% 25%;}
 }
 
 * {
@@ -510,9 +511,12 @@ height: 96%;
 }
 
 
-@media(max-width:999px){.mobilesetingnow{flex-wrap:nowrap}
+@media screen and (max-width: 800px) {
 .gmenu1 {
 width: 10.5%;
 padding: 1% 0%;
 margin: 5% 1.5%;
+}
+
+.card-content{margin:0% 6%;}
 }
