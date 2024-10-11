@@ -392,8 +392,11 @@ font-size: 20px;
  border-radius: 100px;
  border:ridge 2px gold;
  margin: 0.5% 0.3%;
- width: auto;
+ width: 19%;
  height: 60px;
+background-position: center;
+background-size: contain;
+background-repeat: no-repeat;
 }
 
 .menu1 {
@@ -403,32 +406,29 @@ font-size: 20px;
 }
 
 #list1 {
- display: ruby;
- width: auto;
+     display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: stretch;
 
 }
 
 .tmenu1 {
- font-size: 0px;
- border-radius: 100px;
- border:ridge 2px gold;
- margin: 0.5% 0.3%;
- padding: 3% 2%;
- width: auto;
- height: 60px;
+    background: no-repeat;
+    background-position: center;
+    background-size: contain;
+    font-size: 0px;
+    border-radius: 100px;
+    border: ridge 3px gold;
+    margin: 0.5% 0.3%;
+    padding: 4% 0%;
+    width: 24%;
+    height: auto;
 }
 
-.gmenu {
-width: 80px;
-height: auto;
-}
-
-.gmenu1 {
-width: 10.5%;
-height: auto;
-padding: 1% 0%;
-margin: 1% 2%;
-}
 
 .gkon {
 width: 100%;
@@ -464,13 +464,8 @@ border-radius: 100px;
 height: 40px;
 font-size: large;
 }
-.tmenu {
-height: 80px;
-}
-.gmenu{
-max-width:100%;
-padding: 24% 0%;
-} 
+
+
 #searchbar {
 width: 98%;
 height: 65px;
@@ -510,13 +505,13 @@ height: 96%;
   width: 24.99999%;
 }
 
+@media screen and (max-width: 999px) {
+
+.tmenu{height: 45px;}
+}
+
 
 @media screen and (max-width: 800px) {
-.gmenu1 {
-width: 10.5%;
-padding: 1% 0%;
-margin: 5% 1.5%;
-}
 
 .card-content{margin:0% 6%;}
 }
